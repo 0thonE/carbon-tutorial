@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Carousel } from 'react-responsive-carousel';
 
 class App extends Component {
   render() {
@@ -19,6 +20,19 @@ class App extends Component {
             Learn React with me
           </a>
         </header>
+        <br />
+        <h1>Carousel</h1>
+        <Carousel>
+          <div>
+            <p className="legend">Legend 1</p>
+          </div>
+          <div>
+            <p className="legend">Legend 2</p>
+          </div>
+          <div>
+            <p className="legend">Legend 3</p>
+          </div>
+        </Carousel>
       </div>
     );
   }

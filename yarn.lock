@@ -4504,6 +4504,7 @@ __metadata:
     prettier: 1.17.0
     react: 17.0.1
     react-dom: 17.0.1
+    react-responsive-carousel: ^3.2.22
     react-scripts: 4.0.1
     sass: 1.29.0
   languageName: unknown
@@ -4687,6 +4688,13 @@ __metadata:
   version: 2.2.6
   resolution: "classnames@npm:2.2.6"
   checksum: 490eaeca5931846737ffd33e472a701d268d5b8bc5717dd4cf108a127b06e86e05350e06799abbbe763a0e4c945b4217f6700b7ae00ddc703505682c370e5cf2
+  languageName: node
+  linkType: hard
+
+"classnames@npm:^2.2.5":
+  version: 2.3.1
+  resolution: "classnames@npm:2.3.1"
+  checksum: 57d536edede609f81425d24b062d8d720a466565faf1e38d32c881e883920baa71519ac70c7b565e9cd39201fb1c1ff9bdf8aabf8e26544bac481e7924867c83
   languageName: node
   linkType: hard
 
@@ -12890,6 +12898,17 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"prop-types@npm:^15.5.8":
+  version: 15.8.1
+  resolution: "prop-types@npm:15.8.1"
+  dependencies:
+    loose-envify: ^1.4.0
+    object-assign: ^4.1.1
+    react-is: ^16.13.1
+  checksum: 4c0e99ebb880135a5f00d56364545f9ae123ec88a7d78d004218cdb4d8184f53455696cbc50c2994916748c38f12f3b535d7be06cb4f893c2ad8fd03c23245c5
+  languageName: node
+  linkType: hard
+
 "prop-types@npm:^15.7.2":
   version: 15.7.2
   resolution: "prop-types@npm:15.7.2"
@@ -13170,6 +13189,15 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"react-easy-swipe@npm:^0.0.21":
+  version: 0.0.21
+  resolution: "react-easy-swipe@npm:0.0.21"
+  dependencies:
+    prop-types: ^15.5.8
+  checksum: fa493f3f5cc76cdbd1e88c5932bfbb2adf7bb5bcc40f9e56d2b0945a5a5fc471530642814f1e72a77d4b972c6c6d2cebfea2d80e5fcec5b8c341f1599f002009
+  languageName: node
+  linkType: hard
+
 "react-error-overlay@npm:^6.0.8":
   version: 6.0.8
   resolution: "react-error-overlay@npm:6.0.8"
@@ -13195,6 +13223,17 @@ fsevents@~2.1.2:
   version: 0.8.3
   resolution: "react-refresh@npm:0.8.3"
   checksum: 38f06df8e0a20701b96e5d680838a3528d66cfb53db79843d30cb9517df3262ec596607147439975267bf0634bee77101db37298ea79b5742cc28664632f3c76
+  languageName: node
+  linkType: hard
+
+"react-responsive-carousel@npm:^3.2.22":
+  version: 3.2.22
+  resolution: "react-responsive-carousel@npm:3.2.22"
+  dependencies:
+    classnames: ^2.2.5
+    prop-types: ^15.5.8
+    react-easy-swipe: ^0.0.21
+  checksum: ba44f45652553ac6c98f7f96622ed1da1e720b1e4e087dc60707491862cf3ef6319b67e521fb99f4017712feec2a0eaa8905b50fbe31f31d8111ed85f91445eb
   languageName: node
   linkType: hard
 
